@@ -147,7 +147,7 @@ nav a img {
 	height: 104px;
 }
 .course-title {
-	font-size: 23px;
+	font-size: 20px;
 	margin-bottom: 0;
 }
 .course-author {
@@ -219,5 +219,8 @@ nav a img {
 	.players,
 	.courses {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	.courses {
+		grid-row-gap: 25px;
 	}
 }
