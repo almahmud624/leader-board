@@ -216,7 +216,8 @@ nav a img {
 	.container {
 		width: 100%;
 	}
-	.players {
+	.players,
+	.courses {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
